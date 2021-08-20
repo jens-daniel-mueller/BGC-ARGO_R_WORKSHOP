@@ -130,7 +130,7 @@ names(data$Data[[paste0('F', WMO)]]) # show data that has been loaded into R
 do_pause()
 
 # Show the trajectory of the downloaded float
-show_trajectories(float_ids=WMO)
+show_trajectories(float_ids=WMO, return_ggplot = TRUE)
 
 do_pause()
 
